@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS `sensor` (
+   `id` bigint(20) NOT NULL AUTO_INCREMENT,
+   `date` DATE NOT NULL,
+   `temperatura` VARCHAR(100) NOT NULL,
+   `humidade` VARCHAR(100) NOT NULL,
+    PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=1;
